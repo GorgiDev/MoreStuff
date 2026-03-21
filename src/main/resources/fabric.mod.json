@@ -3,15 +3,20 @@
 	"id": "morestuff",
 	"version": "${version}",
 	"name": "MoreStuff",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This mod adds more stuff!",
 	"authors": [
-		"GorgiDev"
+		{
+			"name": "GorgiDev",
+			"contact": {
+				"email": "gkaragiozis24@gmail.com"
+			}
+		}
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/GorgiDev/MoreStuff",
+		"issues": "https://github.com/GorgiDev/MoreStuff/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "GNU GPLv3",
 	"icon": "assets/morestuff/icon.png",
 	"environment": "*",
 	"entrypoints": {
