@@ -3,7 +3,7 @@
 	"id": "morestuff",
 	"version": "${version}",
 	"name": "MoreStuff",
-	"description": "This mod adds more stuff!",
+	"description": "This mod adds a variety of features to the game!",
 	"authors": [
 		{
 			"name": "GorgiDev",
@@ -13,6 +13,7 @@
 		}
 	],
 	"contact": {
+		"homepage": "https://modrinth.com/project/morestuff",
 		"sources": "https://github.com/GorgiDev/MoreStuff",
 		"issues": "https://github.com/GorgiDev/MoreStuff/issues"
 	},
