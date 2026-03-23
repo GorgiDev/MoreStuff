@@ -1,5 +1,6 @@
 package gorgi.morestuff;
 
+import gorgi.morestuff.block.ModBlocks;
 import gorgi.morestuff.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class MoreStuff implements ModInitializer {
 		LOGGER.info(MOD_ID + " has been initialized!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
