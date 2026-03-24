@@ -14,7 +14,8 @@ public class MoreStuffDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
-		pack.addProvider(ModEnglishLangProvider::new);
 		pack.addProvider(ModAdvancementProvider::new);
+
+		ModLanguageProviders.register(pack);
 	}
 }

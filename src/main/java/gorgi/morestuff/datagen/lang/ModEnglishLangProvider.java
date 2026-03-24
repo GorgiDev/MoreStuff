@@ -1,4 +1,4 @@
-package gorgi.morestuff.datagen;
+package gorgi.morestuff.datagen.lang;
 
 import gorgi.morestuff.block.ModBlocks;
 import gorgi.morestuff.item.ModItems;
@@ -18,8 +18,8 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.RAW_COBALT, "Raw Cobalt");
         translationBuilder.add(ModItems.COBALT, "Cobalt");
 
-        translationBuilder.add(ModBlocks.RAW_COBALT_BLOCK, "Raw Cobalt Block");
-        translationBuilder.add(ModBlocks.COBALT_BLOCK, "Cobalt Block");
+        translationBuilder.add(ModBlocks.RAW_COBALT_BLOCK, "Block of Raw Cobalt");
+        translationBuilder.add(ModBlocks.COBALT_BLOCK, "Block of Cobalt");
         translationBuilder.add(ModBlocks.COBALT_ORE, "Cobalt Ore");
         translationBuilder.add(ModBlocks.DEEPSLATE_COBALT_ORE, "Deepslate Cobalt Ore");
     }
