@@ -1,6 +1,7 @@
 package gorgi.morestuff;
 
 import gorgi.morestuff.datagen.*;
+import gorgi.morestuff.datagen.lang.ModEnglishLangProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -16,6 +17,10 @@ public class MoreStuffDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModAdvancementProvider::new);
 
-		ModLanguageProviders.register(pack);
+		registerLangs(pack);
+	}
+
+	public static void registerLangs(FabricDataGenerator.Pack pack) {
+		pack.addProvider(ModEnglishLangProvider::new);
 	}
 }
