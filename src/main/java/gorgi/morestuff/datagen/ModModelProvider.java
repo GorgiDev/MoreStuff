@@ -25,5 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_COBALT, Models.GENERATED);
         itemModelGenerator.register(ModItems.COBALT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
     }
 }

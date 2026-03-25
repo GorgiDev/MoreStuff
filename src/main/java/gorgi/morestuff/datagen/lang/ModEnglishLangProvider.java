@@ -22,5 +22,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.COBALT_BLOCK, "Block of Cobalt");
         translationBuilder.add(ModBlocks.COBALT_ORE, "Cobalt Ore");
         translationBuilder.add(ModBlocks.DEEPSLATE_COBALT_ORE, "Deepslate Cobalt Ore");
+
+        translationBuilder.add(ModItems.METAL_DETECTOR, "Metal Detector");
     }
 }
